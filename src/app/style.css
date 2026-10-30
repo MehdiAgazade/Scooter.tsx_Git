@@ -993,6 +993,38 @@
   color: #42454A;
 }
 
+.section-8-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 43px;
+  gap: 24px;
+}
+
+.section-8-btns span button {
+  color: #42454A;
+  background-color: white;
+  border: 1px solid;
+}
+
+.section-8-btns button {
+  color: white;
+  background-color: #42454A;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  border: none;
+  transition: 0.3s;
+}
+
+.section-8-btns button:hover {
+  scale: 1.03;
+  cursor: pointer;
+  background-color: #42454A;
+  color: white;
+  box-shadow: 0 0 20px #42454A;
+  border: 1px solid;
+}
+
 @media (max-width: 1200px) {
   .section-8-coment-text {
     font-size: 18px;
@@ -1022,3 +1054,4 @@
 }
 
 /* Section-9 */
+

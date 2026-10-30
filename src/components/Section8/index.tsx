@@ -66,6 +66,12 @@ const Section8 = () => {
             })
         }
       </div>
+      <div className="section-8-btns">
+        <span>
+            <button><i className="fa-solid fa-arrow-left-long"></i></button>
+        </span>
+        <button><i className="fa-solid fa-arrow-right-long"></i></button>
+      </div>
     </div>
   )
 }
